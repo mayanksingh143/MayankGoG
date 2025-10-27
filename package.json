@@ -1,0 +1,25 @@
+{
+  "name": "MetaProofHub",
+  "version": "1.0.0",
+  "description": "A decentralized verification hub for authenticating digital documents using cryptographic proofs.",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia"
+  },
+  "keywords": [
+    "blockchain",
+    "solidity",
+    "hardhat",
+    "verification",
+    "decentralized"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.1"
+  }
+}
